@@ -23,10 +23,10 @@ def percentage(count, NoOfTerms):
 import tweepy
 import sys
 
-consumerKey = 'ELr1JSOdK4J8Ym5DZFgiq6xIU'
-consumerSecret = 'wzH5Yg9JTZnwNBMRAnJevNViUpLAxzPUfxB62jq08E1VsTwvCJ'
-accessToken = '882115667389849600-5Mbr0wol5hYK3rLhwnVUkRfjH2XRtZu'
-accessTokenSecret = 'BrjCRdUMWhJKbQfAKYe0xaZu4rILQh2v3zYHut2Who6Rz'
+consumerKey = '---------------------'
+consumerSecret = '------------------------'
+accessToken = '-------------------------'
+accessTokenSecret = '--------------------------'
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
